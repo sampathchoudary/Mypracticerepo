@@ -1,0 +1,18 @@
+import java.util.Scanner; // Import the Scanner class
+
+public class SumNumbers {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in); // Create a Scanner object
+
+        System.out.print("Enter first number: ");
+        int num1 = input.nextInt(); // Read first integer input
+
+        System.out.print("Enter second number: ");
+        int num2 = input.nextInt(); // Read second integer input
+
+        int sum = num1 + num2; // Calculate the sum
+        System.out.println("The sum is: " + sum);
+
+        input.close(); // Close the scanner
+    }
+}
